@@ -17,10 +17,10 @@ An in-depth explanation of the system is available as a technical report in the 
 ### Requirements
 - [Java](https://java.com/en/download/) 8 or newer
 - [NodeJS](https://nodejs.org/) 6 or newer
-- [Tendermint](https://tendermint.com/) 0.14.0
+- [Tendermint Keanu](https://github.com/tendermint/tendermint/releases/tag/v0.14.0) 0.14.0
 
 ### Setup
-- Place a tendermint executable (V0.14) called `tendermint.exe` in the root folder of the project. The file-extension of the file must also be present on non-Windows systems. [Download here](https://tendermint.com/downloads)
+- Place a tendermint executable (V0.14) called `tendermint.exe` in the root folder of the project. The file-extension of the file must also be present on non-Windows systems. [Download here](https://github.com/tendermint/tendermint/releases/tag/v0.14.0)
 - Install the tracker server
   - In the folder `tracker-server` run `npm install`
 - Determine the master machine (when only using a single machine this must also be the master)
